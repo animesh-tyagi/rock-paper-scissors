@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
-    <script src="scriptnotnow.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,18 +14,20 @@
     <div class="options">
         <button class="rock">Rock</button>
         <button class="paper">Paper</button>
-        <button class="scissors">Scissors</button>
+        <button class="scissors">Scissors</button>    
     </div>
     <div class="results">
-        <div class="player-score">
+        <div class="container">
             <p>YOU</p>
+            <p class="player-score">0</p>
         </div>
         <div class="info">
             <p>...</p>
         </div>
 
-        <div class="computer-score">
+        <div class="container">
             <p>CPU</p>
+            <p class="computer-score">0</p>
         </div>
     </div>
 </body>
