@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    background-color:rgb(22, 86, 120);
+    border-width:8px;
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:rgb(22, 86, 120);
+    color:rgb(0, 0, 0);
+    font-size: 32px;
+    /*border-bottom: 8px solid black;*/
+
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 22px;
+    background-color:rgb(9, 52, 74);
+    color:rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
+}
+
+.player-score, .computer-score {
+    display: flex;
+    flex-direction: column;
+    color:rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 32px;
+    color:rgb(9, 52, 74);
+    font-weight:bold;
+}
